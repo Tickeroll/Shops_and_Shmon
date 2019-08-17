@@ -1,0 +1,65 @@
+.shops {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #b2cecf;
+    /*background-image: url("../../../images/Backgrounds/product.jpg");*/
+}
+.textsh {
+    font-size: 60px;
+    line-height: 40px;
+    position: sticky;
+    top: 0;
+    font-style:italic;
+    margin: 1em 0 .6em 0;
+    font-weight: normal;
+    font-family: 'Hammersmith One', sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+    align-content: center;
+    justify-content: center;
+    color: #6Cf;
+    display: flex;
+    background: white;
+
+}
+.products {
+    width:600px;
+    heigh:600px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+}
+.img{
+    display: block;
+    border: 1px solid #b5e9a7;
+    border-radius: 3px;
+    position: relative;
+    background: #fff;
+    margin: 20px;
+    text-decoration: none;
+    color: #474747;
+    z-index: 0;
+    height: 300px;
+
+
+}
+.product-list{
+    background: #fafafa;
+    padding: 15px 0;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+}
+.price {
+    font-size: 16px;
+    color: #fc5a5a;
+    display: block;
+    margin-bottom: 12px;
+}
